@@ -1,0 +1,19 @@
+{
+    "name": "juanparati/emoji",
+    "description": "Emoji library for PHP 5.5.x/7.x and HHVM",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Lago",
+            "email": "juanparati@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juanparati\\Emoji\\": "src/"
+        }
+    }
+}
