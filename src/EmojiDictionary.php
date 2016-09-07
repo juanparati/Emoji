@@ -1831,6 +1831,9 @@ class EmojiDictionary
      */
     public static function get($symbol)
     {
+
+        $symbol = strtolower($symbol);
+
         if (isset(static::$dictionary[$symbol]))
             return static::$dictionary[$symbol];
         else
